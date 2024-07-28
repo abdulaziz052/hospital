@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply h-full scroll-smooth;
+  }
+
+  body {
+    @apply h-full;
+  }
+
+  #root {
+    @apply h-full flex flex-col;
+  }
+
+  main {
+    @apply grow;
+  }
+}
